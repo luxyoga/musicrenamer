@@ -21,10 +21,10 @@ DJ/label packs often come as `01 - Artist - Song (Extended Mix).mp3`. This tool:
 ## Example
 
 **Before:**
-![Before](docs/musicrenamer_before.png)
+![Before](docs/Musicrenamer_Before.png)
 
 **After:**
-![After](docs/musicrenamer_after.png)
+![After](docs/Musicrenamer_After.png)
 
 ## Install
 
