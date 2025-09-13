@@ -40,12 +40,12 @@ git clone https://github.com/<your-username>/music-renamer.git
 cd music-renamer
 ```
 
-# (Optional) create a venv
+### (Optional) create a venv
 ```
 python3 -m venv .venv && source .venv/bin/activate
 ```
 
-# Install tag support (optional but recommended)
+### Install tag support (optional but recommended)
 ```
 pip install -r requirements.txt
 ```
