@@ -20,9 +20,15 @@ DJ/label packs often come as `01 - Artist - Song (Extended Mix).mp3`. This tool:
 
 ## Example
 
-<p float="left">
-  <img src="Musicrenamer_Before.png" width="45%" />
-  <img src="Musicrenamer_After.png" width="45%" />
+<p float="left" align="center">
+  <div style="display:inline-block; margin-right:20px; text-align:center;">
+    <strong>Before</strong><br/>
+    <img src="Musicrenamer_Before.png" width="400"/>
+  </div>
+  <div style="display:inline-block; text-align:center;">
+    <strong>After</strong><br/>
+    <img src="Musicrenamer_After.png" width="400"/>
+  </div>
 </p>
 
 ## Install
