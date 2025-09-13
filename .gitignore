@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env/
