@@ -18,6 +18,14 @@ DJ/label packs often come as `01 - Artist - Song (Extended Mix).mp3`. This tool:
 - **Recursive mode** with `--recursive`.
 - Supports `.mp3, .m4a, .flac, .wav` (configurable with `--exts`).
 
+## Example
+
+**Before:**
+![Before](docs/musicrenamer_before.png)
+
+**After:**
+![After](docs/musicrenamer_after.png)
+
 ## Install
 
 ```bash
