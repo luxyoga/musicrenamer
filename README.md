@@ -52,3 +52,43 @@ pip install -r requirements.txt
 
 
 ## Usage
+
+### 1. Clone the repo
+```
+git clone https://github.com/luxyoga/musicrenamer.git
+cd musicrenamer
+```
+
+### 2. (Optional) Create a virtual environment
+```
+python3 -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+# .venv\Scripts\activate    # Windows (PowerShell)
+```
+
+### 3. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4. Run the script
+```
+# Preview changes (no files renamed)
+python3 rename_music.py "/path/to/your/music/folder"
+
+# Use tags if available (requires mutagen, already included in requirements)
+python3 rename_music.py "/path/to/your/music/folder" --use-tags
+
+# Apply the changes
+python3 rename_music.py "/path/to/your/music/folder" --use-tags --apply
+```
+
+### 5. Optional: Install as CLI command
+If you’d like to call it directly as music-renamer, install it in editable mode:
+```
+pip install -e .
+```
+Then you can run:
+```
+music-renamer "/path/to/your/music/folder" --use-tags --apply
+```
